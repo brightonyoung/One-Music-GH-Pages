@@ -1,0 +1,172 @@
+[2021-04-13 09:43:38Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2021-04-13 09:43:38Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:43:38Z INFO HostContext] Well known directory 'Root': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:43:38Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials'
+[2021-04-13 09:43:38Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2021-04-13 09:43:38Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.21292.
+[2021-04-13 09:43:38Z INFO Listener] Version: 2.277.1
+[2021-04-13 09:43:38Z INFO Listener] Commit: 183a3dd9a0d4d51feddc5fe9fa6c3b5f8b08343d
+[2021-04-13 09:43:38Z INFO Listener] Culture: en-US
+[2021-04-13 09:43:38Z INFO Listener] UI Culture: en-US
+[2021-04-13 09:43:38Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:43:38Z INFO HostContext] Well known directory 'Root': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:43:38Z INFO Listener] Validating directory permissions for: 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:43:38Z INFO CommandLineParser] Parse
+[2021-04-13 09:43:38Z INFO CommandLineParser] Parsing 5 args
+[2021-04-13 09:43:38Z INFO CommandLineParser] parsing argument
+[2021-04-13 09:43:38Z INFO CommandLineParser] HasArgs: False
+[2021-04-13 09:43:38Z INFO CommandLineParser] Adding Command: configure
+[2021-04-13 09:43:38Z INFO CommandLineParser] parsing argument
+[2021-04-13 09:43:38Z INFO CommandLineParser] HasArgs: True
+[2021-04-13 09:43:38Z INFO CommandLineParser] arg: url
+[2021-04-13 09:43:38Z INFO CommandLineParser] parsing argument
+[2021-04-13 09:43:38Z INFO CommandLineParser] HasArgs: True
+[2021-04-13 09:43:38Z INFO CommandLineParser] Adding option 'url': 'https://github.com/brightonyoung/One-Music-GH-Pages'
+[2021-04-13 09:43:38Z INFO CommandLineParser] parsing argument
+[2021-04-13 09:43:38Z INFO CommandLineParser] HasArgs: True
+[2021-04-13 09:43:38Z INFO CommandLineParser] arg: token
+[2021-04-13 09:43:38Z INFO CommandLineParser] parsing argument
+[2021-04-13 09:43:38Z INFO CommandLineParser] HasArgs: True
+[2021-04-13 09:43:38Z INFO CommandLineParser] Adding option 'token': '***'
+[2021-04-13 09:43:38Z INFO Listener] Arguments parsed
+[2021-04-13 09:43:38Z INFO Runner] ExecuteCommand
+[2021-04-13 09:43:38Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin\Runner.Listener.dll
+[2021-04-13 09:43:38Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:43:38Z INFO ConfigurationStore] binPath: C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin
+[2021-04-13 09:43:38Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:43:38Z INFO HostContext] Well known directory 'Root': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:43:38Z INFO ConfigurationStore] RootFolder: C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner
+[2021-04-13 09:43:38Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:43:38Z INFO HostContext] Well known directory 'Root': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:43:38Z INFO HostContext] Well known config file 'Runner': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.runner'
+[2021-04-13 09:43:38Z INFO ConfigurationStore] ConfigFilePath: C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.runner
+[2021-04-13 09:43:38Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:43:38Z INFO HostContext] Well known directory 'Root': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:43:38Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials'
+[2021-04-13 09:43:38Z INFO ConfigurationStore] CredFilePath: C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials
+[2021-04-13 09:43:38Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:43:38Z INFO HostContext] Well known directory 'Root': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:43:38Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials_migrated'
+[2021-04-13 09:43:38Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials_migrated
+[2021-04-13 09:43:38Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:43:38Z INFO HostContext] Well known directory 'Root': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:43:38Z INFO HostContext] Well known config file 'Service': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.service'
+[2021-04-13 09:43:38Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.service
+[2021-04-13 09:43:38Z INFO CommandSettings] Flag 'help': 'False'
+[2021-04-13 09:43:38Z INFO CommandSettings] Flag 'version': 'False'
+[2021-04-13 09:43:38Z INFO CommandSettings] Flag 'commit': 'False'
+[2021-04-13 09:43:38Z INFO CommandSettings] Flag 'check': 'False'
+[2021-04-13 09:43:38Z INFO CommandSettings] Command 'configure': 'True'
+[2021-04-13 09:43:38Z INFO Terminal] WRITE LINE: 
+[2021-04-13 09:43:38Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2021-04-13 09:43:38Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2021-04-13 09:43:38Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2021-04-13 09:43:38Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2021-04-13 09:43:38Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2021-04-13 09:43:38Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2021-04-13 09:43:38Z INFO Terminal] WRITE LINE: |                                                                              |
+[2021-04-13 09:43:38Z INFO Terminal] WRITE: |                       
+[2021-04-13 09:43:38Z INFO Terminal] WRITE: Self-hosted runner registration
+[2021-04-13 09:43:38Z INFO Terminal] WRITE LINE:                         |
+[2021-04-13 09:43:38Z INFO Terminal] WRITE LINE: |                                                                              |
+[2021-04-13 09:43:38Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2021-04-13 09:43:38Z INFO ConfigurationManager] ConfigureAsync
+[2021-04-13 09:43:38Z INFO ConfigurationStore] IsConfigured()
+[2021-04-13 09:43:38Z INFO ConfigurationStore] IsConfigured: False
+[2021-04-13 09:43:38Z INFO ConfigurationManager] Is configured: False
+[2021-04-13 09:43:38Z INFO CommandSettings] Arg 'url': 'https://github.com/brightonyoung/One-Music-GH-Pages'
+[2021-04-13 09:43:38Z INFO CommandSettings] Remove url from Arg dictionary.
+[2021-04-13 09:43:38Z INFO CommandSettings] Arg 'token': '***'
+[2021-04-13 09:43:38Z INFO CommandSettings] Remove token from Arg dictionary.
+[2021-04-13 09:43:39Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration'
+[2021-04-13 09:43:39Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2021-04-13 09:43:39Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2021-04-13 09:43:39Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-04-13 09:43:40Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-04-13 09:43:40Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-04-13 09:43:40Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-04-13 09:43:40Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-04-13 09:43:40Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-04-13 09:43:40Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-04-13 09:43:40Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-04-13 09:43:40Z INFO Terminal] WRITE LINE: 
+[2021-04-13 09:43:40Z INFO ConfigurationManager] Test Connection complete.
+[2021-04-13 09:43:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:43:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:43:40Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials_rsaparams'
+[2021-04-13 09:43:40Z INFO RSAEncryptedFileKeyManager] Creating new RSA key using 2048-bit key length
+[2021-04-13 09:43:40Z INFO RSAEncryptedFileKeyManager] Successfully saved RSA key parameters to file C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials_rsaparams
+[2021-04-13 09:43:40Z INFO ConfigurationManager] Found a self-hosted runner group with id {1} and name {2} 1, Default
+[2021-04-13 09:43:40Z INFO CommandSettings] Arg 'name': ''
+[2021-04-13 09:43:40Z INFO CommandSettings] Flag 'unattended': 'False'
+[2021-04-13 09:43:40Z INFO PromptManager] ReadValue
+[2021-04-13 09:43:40Z INFO Terminal] WRITE: Enter the name of runner: 
+[2021-04-13 09:43:40Z INFO Terminal] WRITE: [press Enter for DESKTOP-7ANNG7F] 
+[2021-04-13 09:43:40Z INFO Terminal] READ LINE
+[2021-04-13 09:43:42Z INFO Terminal] Read value: ''
+[2021-04-13 09:43:42Z INFO PromptManager] Falling back to the default: 'DESKTOP-7ANNG7F'
+[2021-04-13 09:43:42Z INFO Terminal] WRITE LINE: 
+[2021-04-13 09:43:42Z INFO CommandSettings] Arg 'labels': ''
+[2021-04-13 09:43:42Z INFO CommandSettings] Flag 'unattended': 'False'
+[2021-04-13 09:43:42Z INFO PromptManager] ReadValue
+[2021-04-13 09:43:42Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Windows', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2021-04-13 09:43:42Z INFO Terminal] WRITE: [press Enter to skip] 
+[2021-04-13 09:43:42Z INFO Terminal] READ LINE
+[2021-04-13 09:43:43Z INFO Terminal] Read value: ''
+[2021-04-13 09:43:43Z INFO Terminal] WRITE LINE: 
+[2021-04-13 09:43:44Z INFO ConfigurationStore] Saving OAuth credential @ C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials
+[2021-04-13 09:43:44Z INFO ConfigurationStore] Credentials Saved.
+[2021-04-13 09:43:44Z INFO ConfigurationStore] HasCredentials()
+[2021-04-13 09:43:44Z INFO ConfigurationStore] stored True
+[2021-04-13 09:43:44Z INFO CredentialManager] GetCredentialProvider
+[2021-04-13 09:43:44Z INFO CredentialManager] Creating type OAuth
+[2021-04-13 09:43:44Z INFO CredentialManager] Creating credential type: OAuth
+[2021-04-13 09:43:44Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials_rsaparams
+[2021-04-13 09:43:44Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2021-04-13 09:43:44Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-04-13 09:43:44Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-04-13 09:43:44Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-04-13 09:43:44Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-04-13 09:43:44Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-04-13 09:43:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-04-13 09:43:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-04-13 09:43:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-04-13 09:43:44Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 44a49a3b-71b9-4fc8-9cfb-98b428ba93a7
+ActivityId: d35debb7-8dfe-4223-a6fb-ff2cd6878073
+X-TFS-Session: 4b714b8a-9196-4119-87a1-fe2965230535
+X-VSS-E2EID: fc7ea501-8fbf-4ef2-8cb2-717fafecf619
+X-VSS-SenderDeploymentId: 2c974d96-2c30-cef5-eff2-3e0511a903a5
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-MSEdge-Ref: Ref A: 355FCBA6FF2443EE89788C36C3AA8F5B Ref B: DALEDGE1215 Ref C: 2021-04-13T09:43:48Z
+Date: Tue, 13 Apr 2021 09:43:47 GMT
+
+[2021-04-13 09:43:44Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials_rsaparams
+[2021-04-13 09:43:44Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials_rsaparams
+[2021-04-13 09:43:45Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-04-13 09:43:45Z INFO CommandSettings] Arg 'work': ''
+[2021-04-13 09:43:45Z INFO CommandSettings] Flag 'unattended': 'False'
+[2021-04-13 09:43:45Z INFO PromptManager] ReadValue
+[2021-04-13 09:43:45Z INFO Terminal] WRITE: Enter name of work folder: 
+[2021-04-13 09:43:45Z INFO Terminal] WRITE: [press Enter for _work] 
+[2021-04-13 09:43:45Z INFO Terminal] READ LINE
+[2021-04-13 09:43:46Z INFO Terminal] Read value: ''
+[2021-04-13 09:43:46Z INFO PromptManager] Falling back to the default: '_work'
+[2021-04-13 09:43:46Z INFO ConfigurationStore] Saving runner settings.
+[2021-04-13 09:43:46Z INFO ConfigurationStore] Settings Saved.
+[2021-04-13 09:43:46Z INFO Terminal] WRITE LINE: 
+[2021-04-13 09:43:46Z INFO Terminal] WRITE LINE: 
+[2021-04-13 09:43:46Z INFO CommandSettings] Flag 'runasservice': 'False'
+[2021-04-13 09:43:46Z INFO CommandSettings] Flag 'unattended': 'False'
+[2021-04-13 09:43:46Z INFO PromptManager] ReadValue
+[2021-04-13 09:43:46Z INFO Terminal] WRITE: Would you like to run the runner as service? (Y/N) 
+[2021-04-13 09:43:46Z INFO Terminal] WRITE: [press Enter for N] 
+[2021-04-13 09:43:46Z INFO Terminal] READ LINE
+[2021-04-13 09:43:47Z INFO Terminal] Read value: ''
+[2021-04-13 09:43:47Z INFO PromptManager] Falling back to the default: 'N'
+[2021-04-13 09:43:47Z INFO Listener] Runner execution has finished with return code 0

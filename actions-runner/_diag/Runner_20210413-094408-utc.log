@@ -1,0 +1,131 @@
+[2021-04-13 09:44:08Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Root': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:44:08Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials'
+[2021-04-13 09:44:08Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2021-04-13 09:44:08Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.21292.
+[2021-04-13 09:44:08Z INFO Listener] Version: 2.277.1
+[2021-04-13 09:44:08Z INFO Listener] Commit: 183a3dd9a0d4d51feddc5fe9fa6c3b5f8b08343d
+[2021-04-13 09:44:08Z INFO Listener] Culture: en-US
+[2021-04-13 09:44:08Z INFO Listener] UI Culture: en-US
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Root': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:44:08Z INFO Listener] Validating directory permissions for: 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:44:08Z INFO CommandLineParser] Parse
+[2021-04-13 09:44:08Z INFO CommandLineParser] Parsing 1 args
+[2021-04-13 09:44:08Z INFO CommandLineParser] parsing argument
+[2021-04-13 09:44:08Z INFO CommandLineParser] HasArgs: False
+[2021-04-13 09:44:08Z INFO CommandLineParser] Adding Command: run
+[2021-04-13 09:44:08Z INFO Listener] Arguments parsed
+[2021-04-13 09:44:08Z INFO Runner] ExecuteCommand
+[2021-04-13 09:44:08Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin\Runner.Listener.dll
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:44:08Z INFO ConfigurationStore] binPath: C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Root': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:44:08Z INFO ConfigurationStore] RootFolder: C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Root': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:44:08Z INFO HostContext] Well known config file 'Runner': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.runner'
+[2021-04-13 09:44:08Z INFO ConfigurationStore] ConfigFilePath: C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.runner
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Root': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:44:08Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials'
+[2021-04-13 09:44:08Z INFO ConfigurationStore] CredFilePath: C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Root': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:44:08Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials_migrated'
+[2021-04-13 09:44:08Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials_migrated
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Root': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:44:08Z INFO HostContext] Well known config file 'Service': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.service'
+[2021-04-13 09:44:08Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.service
+[2021-04-13 09:44:08Z INFO CommandSettings] Flag 'help': 'False'
+[2021-04-13 09:44:08Z INFO CommandSettings] Flag 'version': 'False'
+[2021-04-13 09:44:08Z INFO CommandSettings] Flag 'commit': 'False'
+[2021-04-13 09:44:08Z INFO CommandSettings] Flag 'check': 'False'
+[2021-04-13 09:44:08Z INFO CommandSettings] Command 'configure': 'False'
+[2021-04-13 09:44:08Z INFO CommandSettings] Command 'remove': 'False'
+[2021-04-13 09:44:08Z INFO CommandSettings] Command 'warmup': 'False'
+[2021-04-13 09:44:08Z INFO ConfigurationManager] LoadSettings
+[2021-04-13 09:44:08Z INFO ConfigurationStore] IsConfigured()
+[2021-04-13 09:44:08Z INFO ConfigurationStore] IsConfigured: True
+[2021-04-13 09:44:08Z INFO ConfigurationManager] Is configured: True
+[2021-04-13 09:44:08Z INFO ConfigurationStore] Read setting file: 312 chars
+[2021-04-13 09:44:08Z INFO ConfigurationManager] Settings Loaded
+[2021-04-13 09:44:08Z INFO ConfigurationStore] IsServiceConfigured()
+[2021-04-13 09:44:08Z INFO ConfigurationStore] IsServiceConfigured: False
+[2021-04-13 09:44:08Z INFO CommandSettings] Command 'run': 'True'
+[2021-04-13 09:44:08Z INFO ConfigurationStore] IsConfigured()
+[2021-04-13 09:44:08Z INFO ConfigurationStore] IsConfigured: True
+[2021-04-13 09:44:08Z INFO ConfigurationManager] Is configured: True
+[2021-04-13 09:44:08Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2021-04-13 09:44:08Z INFO Runner] Set runner startup type - Manual
+[2021-04-13 09:44:08Z INFO CommandSettings] Flag 'once': 'False'
+[2021-04-13 09:44:08Z INFO Runner] RunAsync
+[2021-04-13 09:44:08Z INFO ConfigurationManager] LoadSettings
+[2021-04-13 09:44:08Z INFO ConfigurationStore] IsConfigured()
+[2021-04-13 09:44:08Z INFO ConfigurationStore] IsConfigured: True
+[2021-04-13 09:44:08Z INFO ConfigurationManager] Is configured: True
+[2021-04-13 09:44:08Z INFO ConfigurationManager] Settings Loaded
+[2021-04-13 09:44:08Z INFO MessageListener] {
+  "AgentId": 3,
+  "AgentName": "DESKTOP-7ANNG7F",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/2WkuFCuG6Ju69Beeu5GNeoEWyl1AqLZzdhoZZqgRDMifZKjt3x",
+  "GitHubUrl": "https://github.com/brightonyoung/One-Music-GH-Pages",
+  "WorkFolder": "_work"
+}
+[2021-04-13 09:44:08Z INFO MessageListener] Loading Credentials
+[2021-04-13 09:44:08Z INFO ConfigurationStore] HasCredentials()
+[2021-04-13 09:44:08Z INFO ConfigurationStore] stored True
+[2021-04-13 09:44:08Z INFO CredentialManager] GetCredentialProvider
+[2021-04-13 09:44:08Z INFO CredentialManager] Creating type OAuth
+[2021-04-13 09:44:08Z INFO CredentialManager] Creating credential type: OAuth
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\bin'
+[2021-04-13 09:44:08Z INFO HostContext] Well known directory 'Root': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner'
+[2021-04-13 09:44:08Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials_rsaparams'
+[2021-04-13 09:44:08Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials_rsaparams
+[2021-04-13 09:44:08Z INFO MessageListener] Attempt to create session.
+[2021-04-13 09:44:08Z INFO MessageListener] Connecting to the Runner Server...
+[2021-04-13 09:44:08Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2021-04-13 09:44:08Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-04-13 09:44:08Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-04-13 09:44:08Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-04-13 09:44:08Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-04-13 09:44:08Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-04-13 09:44:09Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-04-13 09:44:09Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-04-13 09:44:09Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-04-13 09:44:09Z INFO MessageListener] VssConnection created
+[2021-04-13 09:44:09Z INFO Terminal] WRITE LINE: 
+[2021-04-13 09:44:09Z INFO Terminal] WRITE LINE: 
+[2021-04-13 09:44:09Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 241e302d-597c-48ab-8924-e29331830dc2
+ActivityId: e411efe0-350d-45f2-8e45-70215dfc9c8a
+X-TFS-Session: c51036b9-611c-4b13-b65c-ab771abb4c9c
+X-VSS-E2EID: d0e6618c-ab76-4524-a831-95096e88b7f7
+X-VSS-SenderDeploymentId: 2c974d96-2c30-cef5-eff2-3e0511a903a5
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-MSEdge-Ref: Ref A: 388A4F111FA446D1A6C8A72E661D95B0 Ref B: DALEDGE1221 Ref C: 2021-04-13T09:44:13Z
+Date: Tue, 13 Apr 2021 09:44:12 GMT
+
+[2021-04-13 09:44:09Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials_rsaparams
+[2021-04-13 09:44:09Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Brighton Young\OneDrive\Documents\UXDesign\one-music-gh-pages\actions-runner\.credentials_rsaparams
+[2021-04-13 09:44:09Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-04-13 09:44:09Z INFO MessageListener] Session created.
+[2021-04-13 09:44:09Z INFO Terminal] WRITE LINE: 2021-04-13 09:44:09Z: Listening for Jobs
+[2021-04-13 09:44:09Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2021-04-13 09:48:06Z INFO Terminal] WRITE LINE: Exiting...
+[2021-04-13 09:48:06Z INFO ConfigurationStore] IsServiceConfigured()
+[2021-04-13 09:48:06Z INFO ConfigurationStore] IsServiceConfigured: False
+[2021-04-13 09:48:06Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2021-04-13 09:48:06Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/2WkuFCuG6Ju69Beeu5GNeoEWyl1AqLZzdhoZZqgRDMifZKjt3x/_apis/distributedtask/pools/1/messages?sessionId=a7b894ad-bf69-4219-a2a6-5516f9488380 has been cancelled.
+[2021-04-13 09:48:06Z INFO MessageListener] Get next message has been cancelled.
+[2021-04-13 09:48:06Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2021-04-13 09:48:07Z INFO Listener] Runner execution been cancelled.
