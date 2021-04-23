@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/brightonyoung/One-Music-GH-Pages/issues"
   },
-  "homepage": "https://github.com/brightonyoung/One-Music-GH-Pages#readme"
+  "homepage": "https://github.com/brightonyoung/One-Music-GH-Pages#readme",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "node.js": "*"
+  }
 }
