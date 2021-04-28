@@ -1,0 +1,7 @@
+[Service]
+Environment="HTTP_PROXY=http://proxy.example.com:80"
+
+{
+    "data-root": "/mnt/docker-data",
+    "storage-driver": "overlay2"
+}
