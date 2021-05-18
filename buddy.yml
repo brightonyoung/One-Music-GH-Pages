@@ -1,0 +1,9 @@
+- pipeline: "Auto-deploy to GoDaddy"
+  on: "EVENT"
+  events:
+  - type: "PUSH"
+    refs:
+    - "refs/heads/gh-pages"
+  priority: "NORMAL"
+  target_site_url: "https://www.rubigroove.com"
+  fail_on_prepare_env_warning: true
