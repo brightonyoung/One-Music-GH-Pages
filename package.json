@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js init" //add this line,
+    "start": "node index.js init"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,14 @@
   },
   "homepage": "https://github.com/brightonyoung/One-Music-GH-Pages#readme",
   "dependencies": {
+    "axios": "^0.21.1",
+    "cuid": "^2.1.8",
+    "date-fns": "^2.21.3",
+    "dotenv": "^10.0.0",
     "express.js": "^1.0.0",
-    "node.js": "*"
-  },
-  "devDependencies": {}
+    "lodash": "^4.17.21",
+    "node.js": "*",
+    "socket.io": "^4.1.2",
+    "uuid": "^8.3.2"
+  }
 }
