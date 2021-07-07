@@ -536,7 +536,7 @@ img {
     .single-hero-slide {
       height: 500px; } }
   .single-hero-slide::after {
-    position: absolute;
+    position: center right;
     width: 100%;
     height: 100%;
     z-index: -5;
