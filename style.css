@@ -255,9 +255,9 @@ img {
 /* :: 3.6.0 Miscellaneous */
 .bg-img {
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat; }
-
+  
 .bg-white {
   background-color: #ffffff !important; }
 
