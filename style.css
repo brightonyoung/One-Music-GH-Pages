@@ -255,7 +255,7 @@ img {
 /* :: 3.6.0 Miscellaneous */
 .bg-img {
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat; }
 
 .bg-white {
@@ -543,7 +543,6 @@ img {
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.35);
-    background-size: 300px 100px, contain;
     content: ''; }
   .single-hero-slide .slide-img {
     position: absolute;
