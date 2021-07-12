@@ -1182,7 +1182,7 @@ img {
 .footer-area {
   position: relative;
   z-index: 1;
-  background-color: #000000;
+  background-color: red;
   padding: 30px 0; }
   @media only screen and (max-width: 767px) {
     .footer-area {
