@@ -20,6 +20,34 @@
 </head>
 
 <body>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "655728261113539");
+      chatbox.setAttribute("attribution", "page_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fconnect.facebook.net%2Fen_US%2Fsdk%2Fxfbml.customerchat.js&amp;data=04%7C01%7C%7Cb6ecff692fb44b58624a08d9451fd6db%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637616825307379706%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=spNnY3vUw6j7H0yOCg0ROgEOpGY8301YMPdWyKK%2BbHg%3D&amp;reserved=0';
+                fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
     <!-- Preloader -->
     <div class="preloader d-flex align-items-center justify-content-center">
         <div class="lds-ellipsis">
@@ -124,35 +152,6 @@
         </div>
     </section>
     <!-- ##### Breadcumb Area End ##### -->
-
-    <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "655728261113539");
-      chatbox.setAttribute("attribution", "page_inbox");
-
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v11.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fconnect.facebook.net%2Fen_US%2Fsdk%2Fxfbml.customerchat.js&amp;data=04%7C01%7C%7Cb6ecff692fb44b58624a08d9451fd6db%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637616825307379706%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=spNnY3vUw6j7H0yOCg0ROgEOpGY8301YMPdWyKK%2BbHg%3D&amp;reserved=0';
-                fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-
 
     <!-- ##### Blog Area Start ##### --
     <div class="blog-area section-padding-100">
