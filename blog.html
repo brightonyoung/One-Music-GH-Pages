@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Rubi Groove</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "655728261113539");
+      chatbox.setAttribute("attribution", "page_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fconnect.facebook.net%2Fen_US%2Fsdk%2Fxfbml.customerchat.js&amp;data=04%7C01%7C%7Cb6ecff692fb44b58624a08d9451fd6db%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637616825307379706%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=spNnY3vUw6j7H0yOCg0ROgEOpGY8301YMPdWyKK%2BbHg%3D&amp;reserved=0';
+                fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="oneMusic-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="oneMusicNav">
+
+                        <!-- Nav brand -->
+                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="albums-store.html">Set List</a></li>
+                                    <li><a href="payme.html">Pay Me</a></li>
+                                <!--    <ul class="dropdown">
+                                        <li><a href="index.html">Home</a></li>
+                                            <li><a href="albums-store.html">Inspiration</a></li>
+                                            <li><a href="event.html">Events</a></li>
+                                            <li><a href="blog.html">Request a Song</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="elements.html">Pay Me</a></li>
+                                            <li><a href="login.html">Login</a></li>
+                                            <li><a href="#">Dropdown</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="#">Even Dropdown</a></li>
+                                                    <li><a href="#">Even Dropdown</a></li>
+                                                    <li><a href="#">Even Dropdown</a></li>
+                                                    <li><a href="#">Even Dropdown</a>
+                                                        <ul class="dropdown">
+                                                            <li><a href="#">Deeply Dropdown</a></li>
+                                                            <li><a href="#">Deeply Dropdown</a></li>
+                                                            <li><a href="#">Deeply Dropdown</a></li>
+                                                            <li><a href="#">Deeply Dropdown</a></li>
+                                                            <li><a href="#">Deeply Dropdown</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#">Even Dropdown</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                    -->             <li><a href="event.html">Events</a></li>
+                                    <li><a href="blog.html">Request a Song</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+
+                                <!-- Login/Register & Cart Button -->
+                                <div class="login-register-cart-button d-flex align-items-center">
+                                    <!-- Login/Register -->
+                                    <div class="login-register-btn mr-50">
+                                        <a href="login.html" id="loginBtn">Leave a Review</a>
+                                    </div>
+
+                                    <!-- Cart Button --
+                                    <div class="cart-btn">
+                                        <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Nav End -->
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Breadcumb Area Start ##### -->
+    <section class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/breadcumb3.jpg);">
+        <div class="bradcumbContent">
+            <p>CLICK THE FACEBOOK MESSENGER ICON TO</p>
+            <h2>Request A Song</h2>
+        </div>
+    </section>
+    <!-- ##### Breadcumb Area End ##### -->
+
+    <!-- ##### Blog Area Start ##### --
+    <div class="blog-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-9">
+
+                    <!-- Single Post Start --
+                    <div class="single-blog-post mb-100 wow fadeInUp" data-wow-delay="100ms">
+                        <!-- Post Thumb --
+                        <div class="blog-post-thumb mt-30">
+                            <a href="#"><img src="img/bg-img/blog1.jpg" alt=""></a>
+                            <!-- Post Date --
+                            <div class="post-date">
+                                <span>15</span>
+                                <span>June ‘18</span>
+                            </div>
+                        </div>
+
+                        <!-- Blog Content --
+                        <div class="blog-content">
+                            <!-- Post Title --
+                            <a href="#" class="post-title">5 Festivals you shouldn’t miss this summer</a>
+                            <!-- Post Meta --
+                            <div class="post-meta d-flex mb-30">
+                                <p class="post-author">By<a href="#"> Admin</a></p>
+                                <p class="tags">in<a href="#"> Events</a></p>
+                                <p class="tags"><a href="#">2 Comments</a></p>
+                            </div>
+                            <!-- Post Excerpt --
+                            <p>Pellentesque sit amet velit a libero viverra porta non eu justo. Vivamus mollis metus sem, ac sodales dui lobortis. Pellentesque sit amet velit a libero viverra porta non eu justo. Vivamus mollis metus sem, ac sodales dui lobortis.</p>
+                        </div>
+                    </div>
+
+                    <!-- Single Post Start --
+                    <div class="single-blog-post mb-100 wow fadeInUp" data-wow-delay="100ms">
+                        <!-- Post Thumb --
+                        <div class="blog-post-thumb mt-30">
+                            <a href="#"><img src="img/bg-img/blog2.jpg" alt=""></a>
+                            <!-- Post Date --
+                            <div class="post-date">
+                                <span>15</span>
+                                <span>June ‘18</span>
+                            </div>
+                        </div>
+
+                        <!-- Blog Content --
+                        <div class="blog-content">
+                            <!-- Post Title --
+                            <a href="#" class="post-title">5 Festivals you shouldn’t miss this summer</a>
+                            <!-- Post Meta --
+                            <div class="post-meta d-flex mb-30">
+                                <p class="post-author">By<a href="#"> Admin</a></p>
+                                <p class="tags">in<a href="#"> Events</a></p>
+                                <p class="tags"><a href="#">2 Comments</a></p>
+                            </div>
+                            <!-- Post Excerpt --
+                            <p>Pellentesque sit amet velit a libero viverra porta non eu justo. Vivamus mollis metus sem, ac sodales dui lobortis. Pellentesque sit amet velit a libero viverra porta non eu justo. Vivamus mollis metus sem, ac sodales dui lobortis.</p>
+                        </div>
+                    </div>
+
+                    <!-- Single Post Start --
+                    <div class="single-blog-post mb-100 wow fadeInUp" data-wow-delay="100ms">
+                        <!-- Post Thumb --
+                        <div class="blog-post-thumb mt-30">
+                            <a href="#"><img src="img/bg-img/blog3.jpg" alt=""></a>
+                            <!-- Post Date --
+                            <div class="post-date">
+                                <span>15</span>
+                                <span>June ‘18</span>
+                            </div>
+                        </div>
+
+                        <!-- Blog Content --
+                        <div class="blog-content">
+                            <!-- Post Title --
+                            <a href="#" class="post-title">5 Festivals you shouldn’t miss this summer</a>
+                            <!-- Post Meta --
+                            <div class="post-meta d-flex mb-30">
+                                <p class="post-author">By<a href="#"> Admin</a></p>
+                                <p class="tags">in<a href="#"> Events</a></p>
+                                <p class="tags"><a href="#">2 Comments</a></p>
+                            </div>
+                            <!-- Post Excerpt --
+                            <p>Pellentesque sit amet velit a libero viverra porta non eu justo. Vivamus mollis metus sem, ac sodales dui lobortis. Pellentesque sit amet velit a libero viverra porta non eu justo. Vivamus mollis metus sem, ac sodales dui lobortis.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pagination --
+                    <div class="oneMusic-pagination-area wow fadeInUp" data-wow-delay="300ms">
+                        <nav>
+                            <ul class="pagination">
+                                <li class="page-item active"><a class="page-link" href="#">01</a></li>
+                                <li class="page-item"><a class="page-link" href="#">02</a></li>
+                                <li class="page-item"><a class="page-link" href="#">03</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-3">
+                    <div class="blog-sidebar-area">
+
+                        <!-- Widget Area --
+                        <div class="single-widget-area mb-30">
+                            <div class="widget-title">
+                                <h5>Categories</h5>
+                            </div>
+                            <div class="widget-content">
+                                <ul>
+                                    <li><a href="#">Music</a></li>
+                                    <li><a href="#">Events &amp; Press</a></li>
+                                    <li><a href="#">Festivals</a></li>
+                                    <li><a href="#">Lyfestyle</a></li>
+                                    <li><a href="#">Uncategorized</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Widget Area --
+                        <div class="single-widget-area mb-30">
+                            <div class="widget-title">
+                                <h5>Archive</h5>
+                            </div>
+                            <div class="widget-content">
+                                <ul>
+                                    <li><a href="#">February 2018</a></li>
+                                    <li><a href="#">March 2018</a></li>
+                                    <li><a href="#">April 2018</a></li>
+                                    <li><a href="#">May 2018</a></li>
+                                    <li><a href="#">June 2018</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Widget Area --
+                        <div class="single-widget-area mb-30">
+                            <div class="widget-title">
+                                <h5>Tags</h5>
+                            </div>
+                            <div class="widget-content">
+                                <ul class="tags">
+                                    <li><a href="#">music</a></li>
+                                    <li><a href="#">events</a></li>
+                                    <li><a href="#">artists</a></li>
+                                    <li><a href="#">press</a></li>
+                                    <li><a href="#">mp3</a></li>
+                                    <li><a href="#">videos</a></li>
+                                    <li><a href="#">concerts</a></li>
+                                    <li><a href="#">performers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Widget Area --
+                        <div class="single-widget-area mb-30">
+                            <a href="#"><img src="img/bg-img/add.gif" alt=""></a>
+                        </div>
+
+                        <!-- Widget Area --
+                        <div class="single-widget-area mb-30">
+                            <a href="#"><img src="img/bg-img/add2.gif" alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Blog Area End ##### -->
+
+    <!-- ##### Contact Area Start ##### --
+    <section class="contact-area section-padding-100 bg-img bg-overlay bg-fixed has-bg-img" style="background-image: url(img/bg-img/bg-2.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading white">
+                        <p>BOOK ME FOR YOUR NEXT EVENT</p>
+                        <h2>Get In Touch</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <!-- Contact Form Area --
+                    <div class="contact-form-area">
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" placeholder="E-mail">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button class="btn oneMusic-btn mt-30" type="submit">Send <i class="fa fa-angle-double-right"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Contact Area End ##### -->
+    <section class="latest-albums-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="albums-slideshow owl-carousel">
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.cash.app/$Rubi777">  
+                            <img src="img/bg-img/a1.png" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.cash.app/$Rubi777">
+                                    <h5>Cash App</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.venmo.com/Rubi777">
+                            <img src="img/bg-img/a2.png" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.venmo.com/Rubi777">
+                                    <h5>Venmo</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.youtube.com/bellenycity">
+                            <img src="img/bg-img/a3.png" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.youtube.com/bellenycity">
+                                    <h5>Youtube</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.facebook.com/rubigroove">
+                            <img src="img/bg-img/a4.png" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.facebook.com/rubigroove">
+                                    <h5>Facebook</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.instagram.com/maribelrubio_official/">
+                            <img src="img/bg-img/a5.png" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.instagram.com/maribelrubio_official/">
+                                    <h5>Instagram</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.snapchat.com/add/bellenyc">
+                            <img src="img/bg-img/a6.jpg" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.snapchat.com/add/bellenyc">
+                                    <h5>Snapchat</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+                        
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.soundcloud.com/bellenyc">
+                            <img src="img/bg-img/a7.jpg" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.soundcloud.com/bellenyc">
+                                    <h5>Soundcloud</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.linkedin.com/in/maribel-rubio-48348669">
+                            <img src="img/bg-img/a8.png" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.linkedin.com/in/maribel-rubio-48348669">
+                                    <h5>LinkedIn</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.youtube.com/bellenycity">
+                            <img src="img/bg-img/a9.png" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.">
+                                    <h5>Square</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.youtube.com/bellenycity">
+                            <img src="img/bg-img/a10.png" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.">
+                                    <h5>Zelle</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.youtube.com/bellenycity">
+                            <img src="img/bg-img/a11.png" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.">
+                                    <h5>PayPal</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.youtube.com/bellenycity">
+                            <img src="img/bg-img/a12.png" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.">
+                                    <h5>Messenger</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.youtube.com/bellenycity">
+                            <img src="img/bg-img/a13.png" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.">
+                                    <h5>Pinterest</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.youtube.com/bellenycity">
+                            <img src="img/bg-img/a14.png" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.gigtown.com/artists/rubi-groove">
+                                    <h5>Gigtown</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.youtube.com/bellenycity">
+                            <img src="img/bg-img/a15.png" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.">
+                                    <h5>Gigsalad</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.youtube.com/bellenycity">
+                            <img src="img/bg-img/a16.png" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.">
+                                    <h5>Apple Pay</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Album 
+                        <div class="single-album">
+                        <a href="https://www.youtube.com/bellenycity">
+                            <img src="img/bg-img/a17.jpg" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.">
+                                    <h5>Facebook Pay</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div> -->
+
+                        <!-- Single Album 
+                        <div class="single-album">
+                        <a href="https://www.youtube.com/bellenycity">
+                            <img src="img/bg-img/a18.jpg" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.">
+                                    <h5>Amazon Pay</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div> -->
+
+                        <!-- Single Album 
+                        <div class="single-album">
+                        <a href="https://www.youtube.com/bellenycity">
+                            <img src="img/bg-img/a19.jpg" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.">
+                                    <h5>Live Me</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div> -->
+
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.youtube.com/bellenycity">
+                            <img src="img/bg-img/a20.png" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.">
+                                    <h5>Twitter</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Album -->
+                        <div class="single-album">
+                        <a href="https://www.youtube.com/bellenycity">
+                            <img src="img/bg-img/a21.png" alt="">
+                        </a>
+                            <div class="album-info">
+                                <a href="https://www.">
+                                    <h5>Google Pay</h5>
+                                </a>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- ##### Latest Albums Area End ##### -->    
+
+ <!-- ##### Contact Area Start ##### -->
+ <section class="contact-area section-padding-100 bg-img bg-overlay bg-fixed has-bg-img" style="background-image: url(img/bg-img/bg-2.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-heading white wow fadeInUp" data-wow-delay="100ms">
+                    <p>BOOK ME FOR YOUR NEXT EVENT</p>
+                    <h2>Get in Touch</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <!-- Contact Form Area -->
+                <div class="contact-form-area">
+                    <form action="#" method="post">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="form-group wow fadeInUp" data-wow-delay="100ms">
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="form-group wow fadeInUp" data-wow-delay="200ms">
+                                    <input type="email" class="form-control" id="email" placeholder="E-mail">
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="form-group wow fadeInUp" data-wow-delay="300ms">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group wow fadeInUp" data-wow-delay="400ms">
+                                    <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center wow fadeInUp" data-wow-delay="500ms">
+                                <button class="btn oneMusic-btn mt-30" type="submit">Send <i class="fa fa-angle-double-right"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ##### Contact Area End ##### -->
+
+<!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row d-flex flex-wrap align-items-center">
+                <div class="col-12 col-md-6">
+                    <a href="#"><img src="img/core-img/logo.jpg" alt=""></a>
+                    <p class="copywrite-text"><a href="#"><!-- Link back to Brighton Young can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://brighton-young.com" target="_blank">Brighton Young</a>
+<!-- Link back to Brighton Young can't be removed. Template is licensed under CC BY 3.0. --></p>
+                </div>                
+
+                <div class="col-12 col-md-6">
+                    <div class="footer-nav">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="albums-store.html">Set List</a></li>
+                            <li><a href="payme.html">Pay Me</a></li>
+                            <li><a href="event.html">Events</a></li>
+                            <li><a href="blog.html">Request a Song</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+</body>
+
+</html>

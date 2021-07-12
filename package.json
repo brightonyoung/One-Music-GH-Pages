@@ -1,0 +1,23 @@
+{
+  "name": "one-music-gh-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brightonyoung/One-Music-GH-Pages.git"
+  },
+  "author": "Brighton Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brightonyoung/One-Music-GH-Pages/issues"
+  },
+  "homepage": "https://github.com/brightonyoung/One-Music-GH-Pages#readme",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "node.js": "*"
+  }
+}
