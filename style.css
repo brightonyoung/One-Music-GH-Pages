@@ -1182,7 +1182,7 @@ img {
 .footer-area {
   position: relative;
   z-index: 1;
-  background-color: red;
+  background-color: #000000;
   padding: 30px 0; }
   @media only screen and (max-width: 767px) {
     .footer-area {
@@ -1190,12 +1190,12 @@ img {
   .footer-area .copywrite-text {
     font-size: 12px;
     margin-bottom: 0;
-    color: black;
+    color: rgba(166, 165, 165, 0.54); }
     .footer-area .copywrite-text a {
-      color: black;
+      color: rgba(166, 165, 165, 0.54);
       font-size: 12px; }
       .footer-area .copywrite-text a:hover, .footer-area .copywrite-text a:focus {
-        color: white; }
+        color: #fff; }
   .footer-area .footer-nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1214,7 +1214,7 @@ img {
         justify-content: center;
         margin-top: 30px; } }
   .footer-area .footer-nav li a {
-    color: black;
+    color: #898888;
     font-size: 16px;
     padding: 0 20px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1226,7 +1226,7 @@ img {
         padding: 0 10px;
         font-size: 14px; } }
     .footer-area .footer-nav li a:hover, .footer-area .footer-nav li a:focus {
-      color: white; }
+      color: #fff; }
   .footer-area .footer-nav li:last-child a {
     padding-right: 0; }
 
@@ -1241,7 +1241,7 @@ img {
       height: 270px; } }
   .breadcumb-area .bradcumbContent {
     position: absolute;
-    background-color: red;
+    background-color: #fff;
     width: 552px;
     bottom: 0;
     left: 50%;
