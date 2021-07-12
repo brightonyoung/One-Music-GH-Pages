@@ -1241,7 +1241,7 @@ img {
       height: 270px; } }
   .breadcumb-area .bradcumbContent {
     position: absolute;
-    background-color: #fff;
+    background-color: red;
     width: 552px;
     bottom: 0;
     left: 50%;
