@@ -18,6 +18,9 @@
   "homepage": "https://github.com/brightonyoung/One-Music-GH-Pages#readme",
   "dependencies": {
     "express.js": "^1.0.0",
-    "node.js": "*"
+    "node.js": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "jest-junit": "^12.2.0"
   }
 }
