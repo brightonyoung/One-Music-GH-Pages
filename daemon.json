@@ -1,4 +1,4 @@
-[Service]
+<Service>
 Environment="HTTP_PROXY=http://proxy.example.com:80"
 
 {
