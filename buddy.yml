@@ -7,3 +7,7 @@
   priority: "NORMAL"
   target_site_url: "https://www.rubigroove.com"
   fail_on_prepare_env_warning: true
+
+
+- name: Cache
+  uses: actions/cache@v2.1.6
