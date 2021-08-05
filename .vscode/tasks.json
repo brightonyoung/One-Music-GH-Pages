@@ -1,0 +1,46 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "deploy",
+			"path": "functions/",
+			"problemMatcher": [
+				"$eslint-compact"
+			],
+			"label": "npm: deploy - functions",
+			"detail": "firebase deploy --only functions"
+		},
+		{
+			"type": "npm",
+			"script": "test:unit:watch",
+			"path": "geolocation/",
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build",
+			"label": "npm: test:unit:watch - geolocation",
+			"detail": "sfdx-lwc-jest --watch"
+		},
+		{
+			"type": "npm",
+			"script": "lint",
+			"path": "geolocation/",
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"label": "npm: lint - geolocation",
+			"detail": "npm run lint:lwc && npm run lint:aura"
+		},
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "functions/",
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"label": "npm: start - functions",
+			"detail": "npm run shell"
+		}
+	]
+}
