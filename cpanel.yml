@@ -3,3 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home3/rubigroo/repositories/One-Music-GH-Pages/
     - /bin/cp -R *DEPLOYPATH 
+
+    - name: Cache
+  uses: actions/cache@v2.1.6
